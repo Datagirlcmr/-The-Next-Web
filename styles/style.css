@@ -186,23 +186,47 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: gold;
 }
 
-/* .section2{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 400px;
-  background-color: darkmagenta;
+.section4{
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  /* background-color: rgb(165, 42, 89); */
+  grid-gap: 20px;
+  min-height: 200px;
+  /* background-color: crimson; */
+  min-height: 500px;
 }
 
-.sec1{
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
+.f1{
+  grid-area: 1/1/4/2;
+  background-color: darkblue;
+}
+
+.f2{
+  grid-area: 1/2/4/3;
   background-color: darkorange;
 }
 
-.sec1 div{
+.f3{
+  grid-area: 1/3/4/4;
+  background-color: darkslategrey;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  background-color: rgb(7, 7, 7);
+}
+
+.fo1{
   flex: 1;
-  background-color: darkred;
-} */
+  background-color: grey;
+}
+
+.fo2{
+  flex: 1;
+}
+
+
