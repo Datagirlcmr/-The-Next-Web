@@ -227,20 +227,55 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: darkorange;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
-  min-height: 250px;
+  min-height: 300px;
   background-color: rgb(7, 7, 7);
 }
 
-.fo1{
-  flex: 1;
-  background-color: grey;
+.fo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #222121;
+  width: 100%;
+  min-height: 200px;
 }
 
-.fo2{
-  flex: 1;
+.fo1 div {
+  display: flex;
+  justify-content: center;
+}
+
+.fo1 button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  background-color: rgb(44, 44, 44);
+  margin: 10px;
+}
+
+.fo1 ul {
+  display: flex;
+  justify-content: center;
+}
+
+.fo1 a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.fo2 {
+color: white;
+text-align: center;
+padding: 40px;
 }
 
 @media only screen and (max-width: 1022px) {
