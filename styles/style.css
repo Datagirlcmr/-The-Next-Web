@@ -278,7 +278,7 @@ text-align: center;
 padding: 40px;
 }
 
-@media only screen and (max-width: 1022px) {
+@media only screen and (max-width: 1023px) {
 
   .sec1 {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -391,5 +391,9 @@ padding: 40px;
     grid-area: 4/2/4/2;
     background-color: darkorange;
   }
+}
 
+@media only screen and (max-width: 767px) {
+
+  
 }
