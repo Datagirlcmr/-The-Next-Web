@@ -38,36 +38,43 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: gray;
 }
 
-.section1{
+.section1 {
   display: grid;
   margin: 10px;
   min-height: 500px;
-  background-color: green;
+  /* background-color: green; */
   grid-gap: 10px;
-  grid-template: repeat(4,1fr)/ repeat(6,1fr);
+  grid-template: repeat(4, 1fr)/ repeat(6, 1fr);
 }
 
-.ar1{
+.ar1 {
   grid-area: 1/1/5/5;
-  background-color: blue;
+  background: url(../images/first.PNG) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.ar2{
+.ar2 {
   grid-area: 1/5/3/7;
-  background-color: brown;
+  background: url(../images/second.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.ar3{
+.ar3 {
   grid-area: 3/5/5/7;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  background: url(../images/third.PNG) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.section2{
+.section2 {
   display: grid;
   width: 100%;
   min-height: 400px;
   grid-gap: 20px;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 
 .sec1 {
@@ -75,28 +82,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0 auto;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-  background-color: brown;
+  /* background-color: brown; */
   grid-gap: 20px;
 }
 
-.pt1{
+.pt1 {
   grid-area: 1/1/3/1;
-  background-color: darkgreen; 
+  background: url(../images/1.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.pt2{
+.pt2 {
   grid-area: 1/2/3/2;
-  background-color: darkred;
+  background: url(../images/2.png) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.pt3{
+.pt3 {
   grid-area: 1/3/3/3;
-  background-color: dimgray;
+  background: url(../images/3.PNG) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.pt4{
+.pt4 {
   grid-area: 1/4/3/4;
-  background-color: gold;
+  background: url(../images/4.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
 .sec2 {
@@ -104,30 +119,72 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0 auto;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-  background-color: rgb(165, 42, 89);
+  /* background-color: rgb(165, 42, 89); */
   grid-gap: 20px;
+  margin-bottom: 20px;
 }
 
-.pic1{
+.pic1 {
   grid-area: 1/1/3/1;
-  background-color: darkgreen; 
+  background: url(../images/5.PNG) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
 }
 
-.pic2{
+.pic2 {
+  grid-area: 1/2/3/2;
+  background: url(../images/6.png) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.pic3 {
+  grid-area: 1/3/3/3;
+  background: url(../images/8.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.pic4 {
+  grid-area: 1/4/3/4;
+  background: url(../images/8.PNG) 0 0 no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.section3 {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  /* background-color: rgb(165, 42, 89); */
+  grid-gap: 20px;
+  min-height: 200px;
+}
+
+.sec3 div {
+  margin-bottom: 20px;
+}
+
+.sec3 {
+  grid-area: 1/1/3/1;
+  background-color: darkgreen;
+}
+
+.sec3two {
   grid-area: 1/2/3/2;
   background-color: darkred;
 }
 
-.pic3{
+.sec3three {
   grid-area: 1/3/3/3;
   background-color: dimgray;
 }
 
-.pic4{
+.sec3four {
   grid-area: 1/4/3/4;
   background-color: gold;
 }
-
 
 /* .section2{
   display: flex;
