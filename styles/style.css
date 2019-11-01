@@ -85,6 +85,24 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  color: aliceblue;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+h3{
+  color: orangered;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 20px 70px;
 }
 
 .nav {
@@ -132,6 +150,7 @@ video {
   background-size: 100%;
   background-size: cover;
 }
+
 
 .ar2 {
   grid-area: 1/5/3/7;
