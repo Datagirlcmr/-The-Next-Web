@@ -43,21 +43,109 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 10px;
   min-height: 500px;
   background-color: green;
-  grid-gap: 20px;
-  grid-template: repeat(4,1fr)/ repeat(4,1fr);
+  grid-gap: 10px;
+  grid-template: repeat(4,1fr)/ repeat(6,1fr);
 }
 
 .ar1{
-  grid-area: 1/1/5/3;
+  grid-area: 1/1/5/5;
   background-color: blue;
 }
 
 .ar2{
-  grid-area: 1/3/3/5;
+  grid-area: 1/5/3/7;
   background-color: brown;
 }
 
 .ar3{
-  grid-area: 3/3/5/5;
+  grid-area: 3/5/5/7;
   background-color: cornflowerblue;
 }
+
+.section2{
+  display: grid;
+  width: 100%;
+  min-height: 400px;
+  grid-gap: 20px;
+  background-color: cyan;
+}
+
+.sec1 {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  background-color: brown;
+  grid-gap: 20px;
+}
+
+.pt1{
+  grid-area: 1/1/3/1;
+  background-color: darkgreen; 
+}
+
+.pt2{
+  grid-area: 1/2/3/2;
+  background-color: darkred;
+}
+
+.pt3{
+  grid-area: 1/3/3/3;
+  background-color: dimgray;
+}
+
+.pt4{
+  grid-area: 1/4/3/4;
+  background-color: gold;
+}
+
+.sec2 {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  background-color: rgb(165, 42, 89);
+  grid-gap: 20px;
+}
+
+.pic1{
+  grid-area: 1/1/3/1;
+  background-color: darkgreen; 
+}
+
+.pic2{
+  grid-area: 1/2/3/2;
+  background-color: darkred;
+}
+
+.pic3{
+  grid-area: 1/3/3/3;
+  background-color: dimgray;
+}
+
+.pic4{
+  grid-area: 1/4/3/4;
+  background-color: gold;
+}
+
+
+/* .section2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 400px;
+  background-color: darkmagenta;
+}
+
+.sec1{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  background-color: darkorange;
+}
+
+.sec1 div{
+  flex: 1;
+  background-color: darkred;
+} */
