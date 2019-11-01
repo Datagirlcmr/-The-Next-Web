@@ -229,4 +229,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   flex: 1;
 }
 
-
+@media only screen and (max-width: 1022px) {
+  body {
+    background-color: rgb(72, 189, 228);
+  }
+}
