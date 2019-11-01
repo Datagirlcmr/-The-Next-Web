@@ -383,101 +383,128 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 @media only screen and (max-width: 767px) {
+
   .section1 {
     grid-template: repeat(3, 1fr)/1fr;
     min-height: 300px;
   }
+
   .ar1 {
     grid-area: 1/1/1/1;
   }
+
   .ar2 {
     grid-area: 2/1/2/1;
   }
+
   .ar3 {
     grid-area: 3/1/3/1;
   }
+
   .sec1 {
     grid-template: repeat(8, 1fr) / 1fr;
     grid-gap: 5px;
     min-height: 600px;
   }
+
   .pt1 {
     grid-area: 1/1/1/1;
   }
+
   .pt2 {
     grid-area: 2/1/2/1;
   }
+
   .pt3 {
     grid-area: 3/1/3/1;
   }
+
   .pt4 {
     grid-area: 4/1/4/1;
   }
+
   .pic1 {
     grid-area: 5/1/5/1;
   }
+
   .pic2 {
     grid-area: 6/1/6/1;
   }
+
   .pic3 {
     grid-area: 7/1/7/1;
   }
+
   .pic4 {
     grid-area: 8/1/8/1;
   }
+
   .section3 {
     grid-template: repeat(3, 1fr) / 1fr;
     grid-gap: 5px;
     min-height: 800px;
   }
+
   .sec3 {
     grid-area: 1/1/1/1;
     background-color: darkgreen;
   }
+
   .sec3two {
     grid-area: 2/1/2/1;
     background-color: darkred;
   }
+
   .sec3three {
     grid-area: 3/1/3/1;
     background-color: dimgray;
   }
+
   .sec3four {
     display: none;
   }
+
   .section4 {
     grid-template: repeat(8, 1fr) / 1fr;
     width: 90%;
     margin: 0 auto;
   }
+
   .f1 {
     grid-area: 1/1/1/1;
     background-color: darkblue;
   }
+
   .f2 {
     grid-area: 2/1/2/1;
     background-color: darkorange;
   }
+
   .f3 {
     grid-area: 3/1/3/1;
     background-color: rgb(99, 240, 240);
   }
+
   .f4 {
     grid-area: 4/1/4/1;
     background-color: rgb(67, 67, 71);
   }
+
   .f5 {
     grid-area: 1/5/1/5;
     background-color: darkorange;
   }
+
   .f6 {
     grid-area: 6/1/6/1;
     background-color: darkslategrey;
   }
+
   .f7 {
     grid-area: 7/1/7/1;
     background-color: darkblue;
   }
+  
   .f8 {
     grid-area: 8/1/8/1;
     background-color: darkorange;
