@@ -171,6 +171,11 @@ small {
   margin-bottom: 20px;
 }
 
+.fo1 div {
+  display: flex;
+  justify-content: center;
+}
+
 .writ3 a:nth-child(1) {
   flex: 1;
   min-height: 200px;
@@ -447,11 +452,6 @@ h3:hover {
   min-height: 200px;
 }
 
-.fo1 div {
-  display: flex;
-  justify-content: center;
-}
-
 .fo1 button {
   width: 50px;
   height: 50px;
@@ -614,12 +614,6 @@ h3:hover {
     background: none;
   }
 
-  .artuno a:nth-child(1) {
-    background: url(../images/6.png) 0 0 no-repeat;
-    background-size: 100%;
-    background-size: cover;
-  }
-
   .pt2 .artuno a:nth-child(1) {
     background: url(../images/2.png) 0 0 no-repeat;
     background-size: 100%;
@@ -717,5 +711,4 @@ h3:hover {
     display: flex;
     flex-direction: column;
   }
-
 }
