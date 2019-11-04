@@ -323,7 +323,7 @@ h3:hover {
 }
 
 .sec1 {
-  width: 90%;
+  min-width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
@@ -498,6 +498,7 @@ h3:hover {
   .cont2
 
   .sec1 {
+    min-height: 800px;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   }
 
