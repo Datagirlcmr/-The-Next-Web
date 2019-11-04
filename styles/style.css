@@ -134,7 +134,6 @@ small {
 .height {
   background-color: rgb(255, 255, 255);
   padding: 8px;
-  display: flex;
   width: inherit;
   justify-content: flex-end;
   display: none;
@@ -142,6 +141,11 @@ small {
 
 .height div {
   margin-right: 20px;
+}
+
+.cont1 img {
+  display: none;
+  height: 100%;
 }
 
 .height div img {
@@ -259,10 +263,6 @@ h3:hover {
   margin-right: 30px;
 }
 
-.cont1 img {
-  display: none;
-  height: 100%;
-}
 
 .cont2 {
   width: inherit;
