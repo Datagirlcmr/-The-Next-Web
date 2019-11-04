@@ -4,7 +4,7 @@
 <p align="center">
  <h3 align="center">The Project was made by - TRESOR / SELMA</h3>
  <p align="center">
-   Sixth Microverse Project - HTML Forms</br>
+   Sixth Microverse Project - Building with Responsive Design</br>
  
         This project consists of replicating the The Next Web website putting emphasis <br> 
        on how it behaves differently depending on the size of the screen where the website is rendered.
