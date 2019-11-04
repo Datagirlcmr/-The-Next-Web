@@ -121,6 +121,23 @@ small {
   text-decoration: underline;
 }
 
+.height{
+  background-color: rgb(199, 199, 199);
+  padding: 8px;
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+  display: none;
+}
+
+.height div{
+  margin-right: 20px;
+}
+
+.height div img{
+  padding: 0 10px 0 10px;
+}
+
 .white a {
   padding: 0 10px 0 10px;
   color: grey;
@@ -242,10 +259,10 @@ h3:hover {
   margin-right: 30px;
 }
 
-/* .cont1 img{
+.cont1 img{
   display: none;
-  height:80%;
-} */
+  height:100%;
+}
 
 .cont2 {
   width: inherit;
@@ -271,7 +288,7 @@ h3:hover {
 
 .section1 {
   display: grid;
-  margin: 10px;
+  margin: -20px 10px 10px 10px;
   min-height: 500px;
   grid-gap: 10px;
   grid-template: repeat(4, 1fr) / repeat(6, 1fr);
@@ -474,6 +491,12 @@ h3:hover {
 }
 
 @media only screen and (max-width: 1023px) {
+  .cont1 img{
+    display: inline;
+  }
+
+  .cont2
+
   .sec1 {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   }
@@ -575,6 +598,18 @@ h3:hover {
   .section1 {
     display: flex;
     flex-direction: column;
+  }
+
+  .height{
+    display: flex;
+  }
+
+  .cont1 img{
+    height: 80%;
+  }
+
+  .black,.white{
+    display: none;
   }
 
   .writ1 {
