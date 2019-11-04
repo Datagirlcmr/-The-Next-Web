@@ -88,7 +88,7 @@ video {
   color: aliceblue;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -99,30 +99,31 @@ a{
   margin-top: 25%;
   margin-left: 5px;
 }
-small{
+
+small {
   color: #222121;
   font-size: 12px;
 }
 
-.artuno{
+.artuno {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.artuno p{
-  background-color:#fff;
+.artuno p {
+  background-color: #fff;
   padding: 15px;
   color: black;
   font-weight: bold;
 }
 
-.artuno p:hover{
+.artuno p:hover {
   color: orangered;
   text-decoration: underline;
 }
 
-.artuno a:nth-child(1){
+.artuno a:nth-child(1) {
   flex: 1;
 }
 
@@ -130,57 +131,58 @@ small{
   font-size: 60px;
 }
 
-.writ2{
+.writ2 {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.writ2 a:nth-child(1){
+.writ2 a:nth-child(1) {
   flex: 1;
-  background:url(../images/orange.png) 0 0 no-repeat;
+  background: url(../images/orange.png) 0 0 no-repeat;
   background-size: 100%;
   background-size: cover;
 }
 
-.writ3{
+.writ3 {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.writ3 a:nth-child(1){
+.writ3 a:nth-child(1) {
   flex: 0.3;
-  background:url(../images/Computer-Code-796x531.jpg) 0 0 no-repeat;
+  background: url(../images/Computer-Code-796x531.jpg) 0 0 no-repeat;
   background-size: 100%;
   background-size: cover;
 }
-.writ3 div:nth-child(2){
+
+.writ3 div:nth-child(2) {
   flex: 1;
   color: black;
   display: flex;
   flex-direction: column;
 }
 
-.writ31 div:nth-child(1){
+.writ31 div:nth-child(1) {
   flex: 0.2;
   background: #ffdede;
 }
 
-.writ31 div:nth-child(2){
+.writ31 div:nth-child(2) {
   flex: 1;
 }
 
-.writ31 div:nth-child(1) p{
+.writ31 div:nth-child(1) p {
   color: orangered;
   font-size: 20px;
   font-weight: bolder;
 }
 
-.writ31 div:nth-child(2) li{
+.writ31 div:nth-child(2) li {
   padding: 20px;
   color: #222121;
-} 
+}
 
 h2 {
   font-size: 25px;
@@ -194,7 +196,7 @@ h3 {
   margin: 20px 70px;
 }
 
-h3:hover{
+h3:hover {
   text-decoration: underline;
 }
 
@@ -515,8 +517,16 @@ h3:hover{
     display: none;
   }
 
-  .artuno{
+  .artuno {
     flex-direction: row;
+  }
+
+  .artuno a:nth-child(1) {
+    flex: 0.2;
+  }
+
+  .artuno a:nth-child(2) {
+    flex: 1;
   }
 
   .section4 {
@@ -561,14 +571,16 @@ h3:hover{
     display: flex;
     flex-direction: column;
   }
+
   .writ1 {
     font-size: 25px;
     font-weight: bolder;
   }
 
-  .ar1 p{
+  .ar1 p {
     margin-top: 0%;
   }
+
   .sec1 {
     grid-template: repeat(8, 1fr) / 1fr;
     grid-gap: 5px;
