@@ -6,8 +6,8 @@
  <p align="center">
    Sixth Microverse Project - HTML Forms</br>
  
-                        This project consists of replicating the The Next Web website putting emphasis <br> 
-                        on how it behaves differently depending on the size of the screen where the website is rendered.
+        This project consists of replicating the The Next Web website putting emphasis <br> 
+       on how it behaves differently depending on the size of the screen where the website is rendered.
    <a href="https://github.com/Datagirlcmr/-The-Next-Web/tree/features"><strong>Explore the docs »</strong></a>
    <br />
    <br />
