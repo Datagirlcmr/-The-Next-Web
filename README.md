@@ -17,7 +17,7 @@
 <h2 align="center">Tools and Technologies Used<h2>
  <ul>
   <li>HTML : for markup</li>
-  <li>CSS :for tyling</li>
+  <li>CSS :for styling</li>
   <li>Linter and Stickler :for validation</li>
  </ul>
 <!-- TABLE OF CONTENTS -->
