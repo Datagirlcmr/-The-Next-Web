@@ -266,6 +266,7 @@ h3 {
   font-size: 25px;
   font-weight: bolder;
   margin: 20px 70px;
+  padding: 10px;
 }
 
 h3:hover {
