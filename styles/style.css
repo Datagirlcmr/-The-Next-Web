@@ -92,9 +92,15 @@ a {
 }
 
 .ar1 p {
-  font-weight: bolder;
   text-align: start;
-  margin-top: 25%;
+  margin-top: 40%;
+  margin-left: 5px;
+}
+
+.ar2 p,
+.ar3 p {
+  text-align: start;
+  margin-top: 20%;
   margin-left: 5px;
 }
 
@@ -166,7 +172,16 @@ small {
 }
 
 .writ1 {
-  font-size: 60px;
+  font-family: Avalon, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+.writa {
+  font-family: Avalon, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .writ2 {
@@ -186,6 +201,15 @@ small {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+.writ3 h2 {
+  font-family: Avalon, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: start;
+  margin-top: 35%;
+  margin-left: 5px;
 }
 
 .sec3 div {
@@ -215,6 +239,7 @@ small {
 .writ31 div:nth-child(1) {
   flex: 1;
   background: #ffdede;
+  min-height: 60px;
 }
 
 .writ31 div:nth-child(2) {
@@ -494,6 +519,10 @@ h3:hover {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   }
 
+  .artuno a:nth-child(1) {
+    min-height: 70px;
+  }
+
   .cont1 img {
     display: initial;
   }
@@ -595,6 +624,14 @@ h3:hover {
   .section1 {
     display: flex;
     flex-direction: column;
+  }
+
+
+  .ar2 p,
+  .ar3 p {
+    text-align: start;
+    margin-top: 0%;
+    margin-left: 5px;
   }
 
   .cont1 img {
