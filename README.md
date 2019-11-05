@@ -11,7 +11,7 @@
    <a href="https://github.com/Datagirlcmr/-The-Next-Web/tree/features"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://raw.githack.com/Datagirlcmr/-The-Next-Web/features/index.html"> :wink: View Demo </a> 
+   <a href="https://rawcdn.githack.com/Datagirlcmr/-The-Next-Web/9ace6ee98f148a643c065ea8f491de006ee1216c/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
