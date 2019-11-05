@@ -109,6 +109,10 @@ h2 {
   margin-left: 5px;
 }
 
+.top-m12{
+  margin-top: 12%;
+}
+
 small {
   color: #222121;
   font-size: 12px;
@@ -296,7 +300,7 @@ h3:hover {
 
 .black {
   background-color: black;
-  padding: 9px;
+  padding: 3.5px 0;
   width: inherit;
   display: flex;
   justify-content: space-between;
@@ -304,7 +308,7 @@ h3:hover {
 
 .white {
   background-color: rgb(199, 199, 199);
-  padding: 8px;
+  padding: 4px 0;
   display: flex;
   width: inherit;
   justify-content: space-between;
