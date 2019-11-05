@@ -97,6 +97,11 @@ a {
   margin-left: 5px;
 }
 
+h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
 .ar2 p,
 .ar3 p {
   text-align: start;
@@ -175,7 +180,6 @@ small {
   font-family: Avalon, sans-serif;
   font-size: 30px;
   font-weight: bolder;
-
 }
 
 .writa {
@@ -255,11 +259,6 @@ small {
 .writ31 div:nth-child(2) li {
   padding: 20px;
   color: #222121;
-}
-
-h2 {
-  font-size: 25px;
-  font-weight: bolder;
 }
 
 h3 {
@@ -625,7 +624,6 @@ h3:hover {
     display: flex;
     flex-direction: column;
   }
-
 
   .ar2 p,
   .ar3 p {
